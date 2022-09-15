@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "target": "es2021",
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "outDir": "build",
+    "rootDir": "src"
+  },
+  "include": ["./src/**/*.ts"]
+}
